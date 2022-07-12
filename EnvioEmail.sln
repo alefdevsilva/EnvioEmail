@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra", "Infra\Infra.csproj", "{3DE05CB0-C7A9-456B-8561-CF3D973BD403}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionEnvioEmail", "FunctionEnvioEmail\FunctionEnvioEmail.csproj", "{B1AFB8C3-8A3E-47A2-ABF0-5E7824587A03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3DE05CB0-C7A9-456B-8561-CF3D973BD403}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DE05CB0-C7A9-456B-8561-CF3D973BD403}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DE05CB0-C7A9-456B-8561-CF3D973BD403}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1AFB8C3-8A3E-47A2-ABF0-5E7824587A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1AFB8C3-8A3E-47A2-ABF0-5E7824587A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1AFB8C3-8A3E-47A2-ABF0-5E7824587A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1AFB8C3-8A3E-47A2-ABF0-5E7824587A03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
