@@ -7,7 +7,7 @@ namespace FunctionEnvioEmail.Dominio
     {
         public bool EnviarEmail(string titulo, string mensagem, string destinatarios)
         {
-            var remetente = "alef.dev.silva@gmail.com";
+            var remetente = "seuEmail";
             MailMessage message = new MailMessage();
             SmtpClient smtpClient = new SmtpClient();
 
@@ -30,7 +30,8 @@ namespace FunctionEnvioEmail.Dominio
                 smtpClient.EnableSsl = true;
                 smtpClient.UseDefaultCredentials = false;
                 smtpClient.DeliveryMethod = SmtpDeliveryMethod.Network;
-                smtpClient.Credentials = new System.Net.NetworkCredential("seuEmail", "@suaSenha");
+                smtpClient.Credentials = 
+                    new System.Net.NetworkCredential("seuEmail", "suaSenha");
                 smtpClient.Send(message);
 
                 return true;

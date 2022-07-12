@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra", "Infra\Infra.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionEnvioEmail", "FunctionEnvioEmail\FunctionEnvioEmail.csproj", "{B1AFB8C3-8A3E-47A2-ABF0-5E7824587A03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MandarEmail", "MandarEmail\MandarEmail.csproj", "{D018744E-EB50-4E9E-B4DF-2BD0EAEC8A52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B1AFB8C3-8A3E-47A2-ABF0-5E7824587A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1AFB8C3-8A3E-47A2-ABF0-5E7824587A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1AFB8C3-8A3E-47A2-ABF0-5E7824587A03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D018744E-EB50-4E9E-B4DF-2BD0EAEC8A52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D018744E-EB50-4E9E-B4DF-2BD0EAEC8A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D018744E-EB50-4E9E-B4DF-2BD0EAEC8A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D018744E-EB50-4E9E-B4DF-2BD0EAEC8A52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
