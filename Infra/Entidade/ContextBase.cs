@@ -16,7 +16,7 @@ namespace Infra.Entidade
         }
         private string GetStringConnectionConfig()
         {
-            string strCon = "Server=localhost\\SQLEXPRESS;Database=FilaEmail;Trusted_Connection=True;";
+            string strCon = "Server=localhost\\SQLEXPRESS;Database=FilaEmail;Trusted_Connection=True;"; 
             return strCon;
         }
     }
